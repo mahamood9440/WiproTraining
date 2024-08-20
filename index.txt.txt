@@ -1,0 +1,11 @@
+
+
+1. What is Java?
+  Java is a high-level, object-oriented programming language developed by Sun Microsystems. It is designed to be platform-independent, which means code written in Java can run on any device that has the Java Virtual Machine (JVM) installed.
+
+2. What are the main principles of Object-Oriented Programming (OOP) in Java?
+   - Encapsulation
+   - Inheritance
+   - Polymorphism
+   - Abstraction
+

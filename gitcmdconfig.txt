@@ -1,0 +1,63 @@
+Microsoft Windows [Version 10.0.22621.4037]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\sbmah\Downloads\SBMB java files\git example>git add .
+
+C:\Users\sbmah\Downloads\SBMB java files\git example>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   help.txt
+
+
+C:\Users\sbmah\Downloads\SBMB java files\git example>git commit -m "version2"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'sbmah@Mahamood.(none)')
+
+C:\Users\sbmah\Downloads\SBMB java files\git example>git init
+Reinitialized existing Git repository in C:/Users/sbmah/Downloads/SBMB java files/git example/.git/
+
+C:\Users\sbmah\Downloads\SBMB java files\git example>git config --global user.email "s.b.mahamoo786d@gmail.com"
+
+C:\Users\sbmah\Downloads\SBMB java files\git example>git config --global user.name "Mahmood"
+
+C:\Users\sbmah\Downloads\SBMB java files\git example>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   help.txt
+
+
+C:\Users\sbmah\Downloads\SBMB java files\git example>git commit -m "version1"
+[master (root-commit) e548f12] version1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 help.txt
+
+C:\Users\sbmah\Downloads\SBMB java files\git example>git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 244 bytes | 244.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/mahamood9440/WiproTraining.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+C:\Users\sbmah\Downloads\SBMB java files\git example>
